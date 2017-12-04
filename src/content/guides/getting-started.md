@@ -206,15 +206,15 @@ Now, let's run the build again but instead using our new configuration:
 ``` bash
 npx webpack --config webpack.config.js
 
-Hash: ff6c1d39b26f89b3b7bb
-Version: webpack 2.2.0
-Time: 390ms
+Hash: faa8a10382c417ea1a6f
+Version: webpack 3.9.1
+Time: 293ms
     Asset    Size  Chunks                    Chunk Names
 bundle.js  544 kB       0  [emitted]  [big]  main
-   [0] ./~/lodash/lodash.js 540 kB {0} [built]
-   [1] (webpack)/buildin/global.js 509 bytes {0} [built]
-   [2] (webpack)/buildin/module.js 517 bytes {0} [built]
-   [3] ./src/index.js 278 bytes {0} [built]
+   [0] ./src/index.js 220 bytes {0} [built]
+   [2] (webpack)/buildin/global.js 509 bytes {0} [built]
+   [3] (webpack)/buildin/module.js 517 bytes {0} [built]
+    + 1 hidden module
 ```
 
 W> Note that when calling `webpack` via its path on windows, you must use backslashes instead, e.g. `node_modules\.bin\webpack --config webpack.config.js`.
